@@ -1,8 +1,8 @@
 
 const w = 1000, h = 600;
-var concepts = {};
+var concepts = [];
 
-concepts[0] = {"text":"machine learning", "size":50, "pos":{{100, 500}, {300, 300}}};
+concepts[0] = {"text":"machine learning", "size":50, "pos":[[100, 500], [300, 300]]};
 
 const canvas = document.getElementById("goCanvas");
 const g = canvas.getContext("2d");
